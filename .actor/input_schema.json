@@ -1,0 +1,19 @@
+{
+    "title": "musicplaza",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "urls": {
+            "title": "URLs",
+            "type": "array",
+            "description": "URLs to scrape",
+            "prefill": [
+                {
+                    "url": "https://www.subkshop.com/"
+                }
+            ],
+            "editor": "requestListSources"
+        }
+    },
+    "required": ["urls"]
+}
