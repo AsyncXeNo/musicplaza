@@ -32,8 +32,8 @@ async def main() -> None:
         Actor.log.info('Launching Chrome WebDriver...')
         chrome_options = ChromeOptions()
 
-        # if Actor.config.headless:
-        #     chrome_options.add_argument('--headless')
+        if Actor.config.headless:
+            chrome_options.add_argument('--headless')
 
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--disable-dev-shm-usage')

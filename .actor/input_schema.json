@@ -9,7 +9,7 @@
             "description": "URLs to scrape",
             "prefill": [
                 {
-                    "url": "https://www.subkshop.com/"
+                    "url": "https://www.musicplaza.com/"
                 }
             ],
             "editor": "requestListSources"
